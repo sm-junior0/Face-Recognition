@@ -2,7 +2,6 @@
 
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -16,8 +15,10 @@ dataset/
 *.png
 *.bmp
 
-# Models - exclude trained models (can be regenerated)
-models/*.xml
-models/*.pkl
-models/*.h5
+# Models - large files are tracked with Git LFS
+# models/*.xml  # Tracked with Git LFS
+# models/*.pkl  # Tracked with Git LFS
+# models/*.h5   # Tracked with Git LFS
 
+config.bat
+node_modules
