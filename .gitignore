@@ -16,4 +16,8 @@ dataset/
 *.png
 *.bmp
 
+# Models - exclude trained models (can be regenerated)
+models/*.xml
+models/*.pkl
+models/*.h5
 
